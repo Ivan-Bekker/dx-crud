@@ -19,10 +19,10 @@
             "modules": {
                 "main": {
                     "host": "localhost",
-                    "user": "dx_user",
+                    "user": "root",
                     "password": "secret",
-                    "database": "dx-crud_db",
-                    "port": 3307,
+                    "database": "dx-crud",
+                    "port": 3306,
                     "ssl": false
                 }
             },

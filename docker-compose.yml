@@ -4,7 +4,7 @@ services:
     sql:
         container_name: dx-crud-database
         # image: biarms/mysql:5.7.33-beta-circleci # mysql image that works with apple m1 chips
-        image: mysql:latest
+        image: mariadb:latest
         environment:
             MYSQL_ROOT_PASSWORD: 'secret'
             MYSQL_USER: 'dx_user'
@@ -13,6 +13,6 @@ services:
         volumes:
             - dx-crudsqldata:/var/lib/mysql
         ports:
-            - 3307:3306 # We used port 3307 to minimize clashes with other instances of mysql servers
+            - 3306:3306 # We used port 3307 to minimize clashes with other instances of mysql servers
 volumes: 
   dx-crudsqldata: {}

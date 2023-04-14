@@ -1,0 +1,20 @@
+{
+    "environmentArray": {
+        "development": {
+            "dataModelState": {
+                "currentDataModelHash": "d4af9c147d157e288de73b87ab16e0b3",
+                "lastDataModelChangeTimestamp": 1681458600045,
+                "lastDataModelSyncTimestamp": 1681458604148
+            },
+            "moduleMapping": {}
+        }
+    },
+    "divbloxPackages": {
+        "local": [
+            "electricity-meter"
+        ],
+        "remote": [
+            "dx-user-management"
+        ]
+    }
+}

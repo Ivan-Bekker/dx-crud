@@ -1,0 +1,21 @@
+{
+    "meter": {
+        "module": "main",
+        "attributes": {
+            "MeterNumber": {
+                "type": "INT",
+                "lengthOrValues": null,
+                "default": null,
+                "allowNull": false
+            }
+        },
+        "indexes": [],
+        "relationships": {
+            "user_account": ["user_account_meter"]
+        },
+        "options": {
+            "enforceLockingConstraints": true,
+            "isAuditEnabled": true
+        }
+    }
+}

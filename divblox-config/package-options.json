@@ -1,0 +1,32 @@
+{
+  "development": {
+    "dx-user-management": {
+      "frontEndUrlBase": null,
+      "frontEndResetPasswordPath": null,
+      "frontEndVerifyAccountPath": null,
+      "forceLoginNameToEmailAddress": false,
+      "forgottenPasswordMessageTemplatePath": null,
+      "verifyAccountMessageTemplatePath": null,
+      "operationAccess": {
+        "getCurrentUserAccount": [
+          "user"
+        ],
+        "updateCurrentUserAccount": [
+          "user"
+        ],
+        "deleteCurrentUserAccount": [
+          "user"
+        ],
+        "uploadProfilePicture": [
+          "user"
+        ],
+        "verifyAccountFromToken": [
+          "user"
+        ]
+      },
+      "hiddenOperations": [],
+      "noReplyEmailAddress": null
+    },
+    "electricity-meter": {}
+  }
+}
