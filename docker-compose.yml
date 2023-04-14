@@ -2,14 +2,14 @@
 version: '1'
 services:
     sql:
-        container_name: divblox_dx-crud_dev_database
+        container_name: dx-crud-database
         # image: biarms/mysql:5.7.33-beta-circleci # mysql image that works with apple m1 chips
-        image: mysql:5.7
+        image: mysql:latest
         environment:
             MYSQL_ROOT_PASSWORD: 'secret'
             MYSQL_USER: 'dx_user'
             MYSQL_PASSWORD: 'secret'
-            MYSQL_DATABASE: 'dx-crud_db'
+            MYSQL_DATABASE: 'dx-crud'
         volumes:
             - dx-crudsqldata:/var/lib/mysql
         ports:
